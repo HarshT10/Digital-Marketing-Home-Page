@@ -1,0 +1,116 @@
+:root{
+    --purple: #5955B3;
+    --black: #1f1f1f;
+    --white: #ffffff;
+    --darkpurple: #3C2F60;
+    --midgrey: #909090;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+.navbar-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img{
+    width: 70%;
+    display: flex;
+}
+
+.grow-list{
+    list-style: none;
+}
+
+.navbar-container .list .list-item{
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #CACACA;
+    transition: .3s ease-in-out;
+}
+
+.navbar-container .list .list-item:hover{
+    color: var(--black);
+}
+
+.button-group{
+    margin-left: auto;
+}
+
+.button-group .nav-button{
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 11px;
+    padding: 15px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Banner-Container */
+
+
+.banner-container{
+    margin-top: 60px;
+    display: flex;
+}
+
+.text{
+    width: 50%;
+    padding-top: 10%;
+}
+
+.banner-container .heading-text{
+    color: var(--darkpurple);
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.banner-container .heading-text span{
+    color: var(--purple);
+}
+
+.banner-container .description{
+    margin-top: 30px;
+    color: var(--midgrey);
+    width: 75%;
+    font-size: 17px;
+}
+
+.illustration{
+    width: 70%;
+}
+
+.illustration img{
+    position: absolute;
+    right: 0;
+    height: 80vh;
+}
+
+.btn{
+    margin-top: 70px;
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 11px;
+    padding: 25px 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
