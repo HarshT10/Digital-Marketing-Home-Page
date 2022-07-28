@@ -81,6 +81,7 @@
     color: var(--darkpurple);
     font-size: 4rem;
     line-height: 1.2;
+    width: 65%;
 }
 
 .banner-container .heading-text span{
