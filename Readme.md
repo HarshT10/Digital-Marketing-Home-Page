@@ -2,7 +2,7 @@
 
 - This project is a home page for digital marketing agencies. 
 
-[Netlify](https://digital-marketing-home-page-harshthakkar1011.netlify.app/)
+[Netlify](https://digital-marketing-home-page-harshcodes.netlify.app/)
 
 ![Badge](https://img.shields.io/badge/Netlify-Link-green)
 
